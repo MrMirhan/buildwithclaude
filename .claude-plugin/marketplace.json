@@ -4198,6 +4198,33 @@
         "repo": "Mubboo-Ai/mubboo-flights-mcp",
         "sha": "b1d75f2ecbd8e235e6f7d417506c14efe77efe97"
       }
+    },
+    {
+      "name": "buddy-chat",
+      "description": "End-to-end encrypted, quantum-resistant chat between Claude Code users: direct chats, groups and read receipts in a pane, with no server to run.",
+      "version": "0.13.0",
+      "author": {
+        "name": "MrMirhan",
+        "url": "https://github.com/MrMirhan"
+      },
+      "homepage": "https://github.com/MrMirhan/claude-buddy-chat",
+      "repository": "https://github.com/MrMirhan/claude-buddy-chat",
+      "license": "MIT",
+      "keywords": [
+        "chat",
+        "messaging",
+        "encryption",
+        "e2ee",
+        "post-quantum",
+        "claude-code",
+        "mod"
+      ],
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "MrMirhan/claude-buddy-chat",
+        "sha": "b9eb968dd8c274040ea80c4a3c4ac2bc8fa6790d"
+      }
     }
   ]
 }
