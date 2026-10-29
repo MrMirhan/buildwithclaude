@@ -4683,6 +4683,60 @@
         "repo": "rdoyle99/conferencedb-plugin",
         "sha": "afa673b6d1b3f38a448219788d2ada4d833fce66"
       }
+    },
+    {
+      "name": "agent-standup",
+      "description": "Watch every Claude Code, Codex, Mistral Vibe and Cowork session on this computer, sub-agents included, as a live animated team call: who is working, stuck on a long command, waiting on another agent, or waiting for you, with tokens per agent. Two skills: /agent-standup:open starts the local app (`npx -y @double_geste/agent-standup@1.42.0 --open`, Node 18+, localhost:4747) and /agent-standup:status gives a one-line summary. Reads local session files only and sends nothing by default.",
+      "version": "1.42.0",
+      "author": {
+        "name": "Double Geste",
+        "url": "https://github.com/Atoll92"
+      },
+      "homepage": "https://agent-standup.com",
+      "repository": "https://github.com/Atoll92/agent-standup",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "sub-agents",
+        "sessions",
+        "monitoring",
+        "standup",
+        "codex"
+      ],
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Atoll92/agent-standup.git",
+        "path": "plugin",
+        "ref": "main",
+        "sha": "2c000166fd8694f6e741cee3a2ca1a7ba979c161"
+      }
+    },
+    {
+      "name": "agent-standup-band",
+      "description": "Mod (function hooks, Claude Code 2.1.294+): a line above your prompt when another Claude Code session on this computer needs you (an approval, an answer), and a toast when one finishes its turn. Reads only ~/.claude/sessions/*.json; no network, nothing installed.",
+      "version": "1.42.0",
+      "author": {
+        "name": "Double Geste",
+        "url": "https://github.com/Atoll92"
+      },
+      "homepage": "https://agent-standup.com",
+      "repository": "https://github.com/Atoll92/agent-standup",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "sessions",
+        "notifications",
+        "standup"
+      ],
+      "category": "monitoring",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Atoll92/agent-standup.git",
+        "path": "plugin-band",
+        "ref": "main",
+        "sha": "2c000166fd8694f6e741cee3a2ca1a7ba979c161"
+      }
     }
   ]
 }
